@@ -1,0 +1,64 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>edu.psu.se411</groupId>
+  <artifactId>lab04</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <name>MyProject Name</name>
+ <description>This project is……</description>
+ <url>https://yourProjectUrl.dom</url>
+ 
+ <licenses>
+ <license>
+ <name>Apache License 2.0</name>
+
+<url>https://www.apache.org/licenses/LICENSE-2.0</url>
+ </license>
+ </licenses>
+ 
+ <organization>
+ <name>SE411-Tech-Company</name>
+ <url>https://mycompanyUrl.dom</url>
+ </organization>
+ 
+ <developers>
+	<developer>	
+	<name>nadin</name>
+	<email>nadin@mail.com</email>
+	<organization>SE411-Tech-Company</organization>
+	</developer>
+ </developers>
+ 
+ 
+  <dependencies>
+	  <dependency>
+	 <groupId>org.openjfx</groupId>
+	 <artifactId>javafx-controls</artifactId>
+	 <version>23</version>
+	 </dependency>
+ </dependencies>
+ 
+ <build>
+ <plugins>
+ 
+	 <plugin>
+	 <groupId>org.openjfx</groupId>
+	 <artifactId>javafx-maven-plugin</artifactId>
+	 <version>0.0.8</version>
+	 <configuration>
+	
+	<mainClass>edu.psu.se411.MainClass</mainClass>
+	 </configuration>
+	 </plugin>
+	 
+	 <plugin>
+		 <groupId>org.apache.maven.plugins</groupId>
+		 <artifactId>maven-project-info-reports-plugins</artifactId>
+		 <version>3.5.0</version>
+	 </plugin>
+
+ </plugins>
+ </build>
+  
+  
+</project>
