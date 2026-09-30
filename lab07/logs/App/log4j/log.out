@@ -1,0 +1,10 @@
+2026-09-30 23:10:00,234 INFO [main] edu.psu.se411.lab07.App - Application is starting
+2026-09-30 23:10:00,239 INFO [main] edu.psu.se411.lab07.App - Application is stopping
+2026-09-30 23:10:31,452 INFO [main] edu.psu.se411.lab07.App - Application is starting
+2026-09-30 23:10:31,461 ERROR [main] edu.psu.se411.lab07.App - Exception occurred: Luggage weight is missing.
+2026-09-30 23:10:31,462 INFO [main] edu.psu.se411.lab07.App - Application is stopping
+2026-09-30 23:11:11,266 INFO [main] edu.psu.se411.lab07.App - Application is starting
+2026-09-30 23:11:11,270 ERROR [main] edu.psu.se411.lab07.App - Exception occurred: Luggage weight must be between 0 and 40.0 kg.
+2026-09-30 23:11:11,270 INFO [main] edu.psu.se411.lab07.App - Application is stopping
+2026-09-30 23:16:35,913 INFO [edu.psu.se411.lab07.App.main()] edu.psu.se411.lab07.App - Application is starting
+2026-09-30 23:16:35,917 INFO [edu.psu.se411.lab07.App.main()] edu.psu.se411.lab07.App - Application is stopping
